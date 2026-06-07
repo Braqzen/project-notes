@@ -1,0 +1,11 @@
+- A database is a collection of subsystems where each subsystem selects different tradeoffs.
+- A database is the storage engine with various components built on top such as the execution engine and query processor all of which have their own components.
+	- Query processor must parse and validate the query and then optimize it to create execution plans
+	- Execution engine takes the query plan and executes the steps
+	- Storage engine ensures data is written safely without affecting others
+- There are many database classifications to help narrow down which DB to choose for a use case.
+- Databases may be split into theoretical subsystems but implementation may overlap for optimizations
+- Databases create their own internal structures to optimize usage instead of relying on host
+- Indexes are created for efficient lookup at the cost of space
+- Data is stored in data file or in the index
+- Data is usually marked for deletion at a later point than overwriting to 0 instantly

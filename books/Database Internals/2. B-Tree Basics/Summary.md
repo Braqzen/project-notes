@@ -1,0 +1,9 @@
+- Storage as mutable vs immutable
+	- Mutable makes in-place changes via Multi-Version Concurrency Control (MVCC) or Slotted Page Organisation
+- B-Trees
+- Storage Drives
+	- As new drives are developed new algorithms are developed to exploit their hardware for performance
+	- HDDs are slow because the disk spins and the head must move to the correct location
+		- Random reads and writes mean a lot of moving
+		- Sequential reads and writes are much cheaper
+	- SSDs
