@@ -1,0 +1,1 @@
+- [[1. DBMS Architecture|Database Internals]] presents the common structure and subsytems of a database and how data may be distributed to other nodes.
